@@ -6,6 +6,7 @@ const childId=(state,action)=>({
       return [...state,action.childId]
     case removeChild:
       return state.filter((id)=>id!==childId)
+      case 
     default:
       return state
   }
